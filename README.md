@@ -6,10 +6,10 @@
 This app uses worldweatheronline.com weather api to provide weather details for multiple days along with Current Weather Details.
 
 The aimed use case is to develop an app to search for weather details for specific city for today and next 5 days. 
--The User Can search City and can see respective weather Forecasting.
--This application is developed in swift.
--UI unit test cases are included.
--Web query and JSON parsing is done on a background thread.
+The User Can search City and can see respective weather Forecasting.
+This application is developed in swift.
+UI unit test cases are included.
+Web query and JSON parsing is done on a background thread.
 
 
 ## Prerequisites
@@ -19,8 +19,10 @@ The aimed use case is to develop an app to search for weather details for specif
 
 ## Running the app
 
-- Launch the app and enter the City to get weather details
-- The App will present with 2 pages with weather info
+- Launch the app 
+- Enter the City to get weather details
+- Click on search Button on Keyboard
+- The App will present with 2 pages with weather info (PageViewController)
 - The First page will give current Weather Details
 - The Second page will give weather forecast for coming days
   
